@@ -47,11 +47,20 @@ font-size: ${constants.titleFontSize};
 color: ${colors.titleColor};
 `
 
+const imageBackGround = () => css`
+background-image: ${constants.prymariBackGround};
+height: 100%;
+width: 100%;
+`
+
+
+
 
 export const mixins = {
   titleStyle,
   ButtonAqua,
   ButtonCancel,
   titleModal,
+  imageBackGround,
 
 }
