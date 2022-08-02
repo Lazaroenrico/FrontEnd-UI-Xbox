@@ -1,33 +1,19 @@
+import * as Styled from "./styled";
+import ButtonsLogin from "../../components/Buttons/index";
+import LoginSections from "../../components/SectionLogin/index";
+
 const Login = () => {
   return (
-    <main>
+    <Styled.DivLogin>
       <img src="" alt="Logo" />
 
-      <div>
-        <section>
-          <p>Login</p>
-          <input
-            type="text"
-            name="login"
-            id="login"
-            placeholder=" Digite o seu Login de acesso"
-          />
-        </section>
-        <section>
-          <p>Password</p>
-          <input
-            type="text"
-            name="password"
-            id="password"
-            placeholder=" Digite o sua Senha de acesso"
-          />
-        </section>
+      <Styled.ContentBorder>
+        <Styled.Plog>Login</Styled.Plog>
 
-
-        <p>OR</p>
-        <button>SIGN OUT</button>
-      </div>
-    </main>
+        <LoginSections />
+        <ButtonsLogin />
+      </Styled.ContentBorder>
+    </Styled.DivLogin>
   );
 };
 
