@@ -3,16 +3,14 @@ import styled, { css } from "styled-components";
 
 
 export const DivLogin = styled.div`
-${({theme}) => css `
+${({theme}) => css`
 display:flex;
-justify-content: center;
-img{
-    height: 5rem;
-    width: 4rem;
-}
-
+flex-direction: column;
+margin: 10px 30rem;
 `}
 `
+
+
 export const ContentBorder = styled.div`
 ${({theme}) => css`
  width: 32rem;
@@ -20,7 +18,6 @@ ${({theme}) => css`
  display: flex;
  flex-direction: column     ;
  border-radius: 10px;
- margin-top: 10vh;
  background: rgba(0,0,0,0.4);
  border: 1px solid #fff ;
  `}
