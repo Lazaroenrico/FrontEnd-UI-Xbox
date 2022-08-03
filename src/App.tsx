@@ -1,7 +1,7 @@
 import theme from "./assets/styles/theme";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import Router from "./pages/index";
+import Router from "./router";
 
 const App = () => {
   return (
