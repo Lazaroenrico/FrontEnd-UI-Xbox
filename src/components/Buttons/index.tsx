@@ -1,6 +1,8 @@
+
 import * as Styled from "./styled";
 
 const ButtonsLogin = () => {
+
   return (
     <div>
       <Styled.ButtonEnter>ENTER</Styled.ButtonEnter>

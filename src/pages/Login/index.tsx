@@ -1,11 +1,14 @@
 import * as Styled from "./styled";
 import ButtonsLogin from "../../components/Buttons/index";
 import LoginSections from "../../components/SectionLogin/index";
+import { useState } from "react";
+import {LogoIcon} from "../../assets/icons/index";
 
 const Login = () => {
   return (
     <Styled.DivLogin>
-      <img src="" alt="Logo" />
+      
+      <LogoIcon/>
 
       <Styled.ContentBorder>
         <Styled.Plog>Login</Styled.Plog>
